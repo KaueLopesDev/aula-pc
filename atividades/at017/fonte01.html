@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+body {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ /* 
+ Medidas Absolutas
+ cm(centimetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+ 
+ Medidas Relativas
+ em, ex, rem, vw, vh,
+ 16px geralmente = 1em
+ */
+ font-size: 1em;
+ font-weight: normal;
+ font-style: normal;
+ text-decoration: ;
+ /* lighter normal bold bolder*/
+}
+
+h1 {
+   
+    /*shorthand font
+    - font-style -> font-weight -> font-size -> font-size 
+    
+    Ao  inves de usar isso
+     font-family: 'work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+    Use isso
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif
+}
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ducimus dolorem earum vero ullam ab sunt quidem in sit mollitia iste, repudiandae expedita eum labore voluptate. Laborum, ratione. Consectetur, sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nesciunt eos voluptatum alias eligendi, in voluptas eius inventore facere libero hic asperiores sint officiis. Eveniet tempore voluptate cum expedita iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut nulla alias, aliquid neque odio labore, reiciendis excepturi sed temporibus saepe praesentium accusantium beatae maiores eaque dicta animi. Perferendis, aperiam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus incidunt minima eveniet repudiandae, sequi exercitationem provident adipisci quia? Nobis deserunt facilis harum velit hic omnis, placeat enim similique blanditiis est.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos cumque temporibus veniam dolore reprehenderit expedita, impedit sint hic repellat in nulla pariatur recusandae nostrum modi tempora consequatur. Debitis, eaque suscipit.</p>
+</body>
+</html>

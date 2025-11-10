@@ -26,12 +26,21 @@
             color: white;
             text-align: center;
             margin-bottom: 20px;
-            padding-left: 50px;
+            padding: 50px;
         }
 
         header h1 {
             font-size: 10vw;
             font-family: var(--fonte2);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
         }
 
         section {
@@ -40,6 +49,38 @@
             padding: 20px;
             font-family: var(--fonte3);
         }
+
+        .fundo {
+            padding: 100px 0px 100px 20px;
+            background-color: black;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        #foto-1 {
+            background-image: url(imagens/background001.jpg);
+        }
+
+        #foto-2 {
+            background-image: url(imagens/background002.jpg);
+        }
+
+        .frente {
+            background-color: rgba(0, 0, 0, 0.479);
+            color: white;
+            max-width: 450px;
+            padding-left: 15px;
+        }
+
+        footer {
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 5px;
+        }
+
     </style>
 </head>
 <body>
@@ -50,7 +91,7 @@
                 </h1>
 
                  <p>
-                    <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Por Milton Duarte</a>
+                    <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Por <strong>Milton Duarte</strong></a>
                 </p>
             </header>
         
@@ -66,7 +107,7 @@
         </p>
     </section>
 
-    <section class="fundo">
+    <section class="fundo" id="foto-1">
         <p class="frente">
             Não é mais como era antes <br>
             É tudo abreviado <br>
@@ -103,7 +144,7 @@
         </p>
     </section>
 
-    <section class="fundo">
+    <section class="fundo" id="foto-2">
         <p class="frente">
             Tenho saudade das cartas <br>
             Escritas com a própria mão <br>
